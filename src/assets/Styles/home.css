@@ -89,3 +89,62 @@
 .testemonials-card .img img{
     border-radius: 5px 5px 0px 0px;
 }
+#dropdown{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    z-index: 9999;
+    right: 0%;
+    margin-top: 4%;
+    margin-right: 0px;
+    display: none;
+}
+
+/*Admin Css Start */
+.admin-nav{
+    height: 60px;
+    background-color: #FF7D29;
+    padding-top: 15px;
+}
+.admin-nav nav .admin-links{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.food-form{
+    height: auto;
+    background-color: #000;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-top: 3px solid #fff;
+}
+.hr{
+    color: #fff;
+}
+.food-form label{
+    color: #fff;
+    letter-spacing: 0.7px;
+}
+.food-form input[type="text"], input[type="date"]{
+    height: 47px;
+    background-color: #313131;
+    color: #fff;
+}
+.food-form input[type="text"]::placeholder{
+    color: #fff;
+}
+.food-form input[type="date"]{
+    color: #fff;
+    color: #fff;
+}
+.food-form textarea{
+    background-color: #313131;
+    color: #fff;
+}
+.food-form textarea::placeholder{
+    color: #fff;
+}
+.food-form input[type="file"]{
+    background-color: #313131;
+}
